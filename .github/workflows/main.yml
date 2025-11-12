@@ -27,7 +27,7 @@ jobs:
         env:
           SOCKET_SECURITY_API_KEY: ${{ secrets.SOCKET_SECURITY_API_KEY }}
         run: |
-          npx @socketsecurity/cli scan create \
+          npx @socketsecurity/cli scan create . \
             --reach \
             --org EShay \
             --branch ${{ github.ref_name }} \
