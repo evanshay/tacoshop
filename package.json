@@ -4,7 +4,8 @@
   "description": "vulnerable tacos, come and get them.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests yet - just tacos 🌮\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/evanshay/tacoshop#readme",
   "dependencies": {
     "axios": "^1.13.2",
+    "evernote-mcp-server": "^0.0.2",
     "express": "^5.1.0",
     "lodash": "^4.17.21"
   }
