@@ -32,5 +32,5 @@ jobs:
             --org EShay \
             --branch ${{ github.ref_name }} \
             --commit-hash ${{ github.sha }} \
-            --commit-message "${{ github.event.head_commit.message }}"
+            --commit-message "${{ github.event.head_commit.message }}" \
             --no-interactive
